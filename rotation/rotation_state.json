@@ -82,6 +82,15 @@
   ],
   "log": [
     {
+      "ts": "2025-11-30T02:52:02.332Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "OFF"
+      }
+    },
+    {
       "ts": "2025-11-30T02:51:56.891Z",
       "type": "status",
       "advisorId": "veronica_nekrassoff",
@@ -229,5 +238,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:51:57.941Z"
+  "_serverUpdatedAt": "2025-11-30T02:52:03.361Z"
 }
