@@ -20,7 +20,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2025-11-30T02:46:13.058Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "eric_shirley": {
-      "inAt": null,
+      "inAt": "2025-11-30T02:46:13.698Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -75,9 +75,25 @@
     }
   },
   "rotation": [
-    "veronica_nekrassoff"
+    "veronica_nekrassoff",
+    "brock_cross",
+    "eric_shirley"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:46:13.698Z",
+      "type": "check_in",
+      "advisorId": "eric_shirley",
+      "advisorName": "Eric Shirley",
+      "meta": {}
+    },
+    {
+      "ts": "2025-11-30T02:46:13.058Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2025-11-30T02:45:51.082Z",
       "type": "check_in",
@@ -107,5 +123,5 @@
     }
   ],
   "settings": {},
-  "_serverUpdatedAt": "2025-11-30T02:45:52.073Z"
+  "_serverUpdatedAt": "2025-11-30T02:46:14.689Z"
 }
