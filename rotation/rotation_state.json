@@ -21,7 +21,7 @@
     },
     "brock_cross": {
       "inAt": "2025-11-30T02:46:13.058Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -81,6 +81,15 @@
     "eric_shirley"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:47:46.876Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-11-30T02:47:39.507Z",
       "type": "assign",
@@ -164,5 +173,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:47:40.472Z"
+  "_serverUpdatedAt": "2025-11-30T02:47:47.843Z"
 }
