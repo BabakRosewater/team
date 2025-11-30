@@ -39,12 +39,12 @@
     },
     "parker_mcwhirter": {
       "inAt": "2025-11-30T02:46:14.674Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-11-30T02:48:23.782Z"
     },
     "brandon_ullom": {
       "inAt": null,
@@ -75,12 +75,23 @@
     }
   },
   "rotation": [
-    "parker_mcwhirter",
     "veronica_nekrassoff",
     "eric_shirley",
-    "brock_cross"
+    "brock_cross",
+    "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:48:23.782Z",
+      "type": "assign",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2025-11-30T02:48:01.206Z",
       "type": "status",
@@ -193,5 +204,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:48:02.138Z"
+  "_serverUpdatedAt": "2025-11-30T02:48:24.904Z"
 }
