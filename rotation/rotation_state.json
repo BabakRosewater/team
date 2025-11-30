@@ -30,12 +30,12 @@
     },
     "eric_shirley": {
       "inAt": "2025-11-30T02:46:13.698Z",
-      "status": "AVAILABLE",
-      "ups": 1,
+      "status": "WITH_GUEST",
+      "ups": 2,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": "2025-11-30T02:47:39.507Z"
+      "lastAssignedAt": "2025-11-30T03:12:47.015Z"
     },
     "parker_mcwhirter": {
       "inAt": "2025-11-30T02:46:14.674Z",
@@ -75,12 +75,23 @@
     }
   },
   "rotation": [
-    "eric_shirley",
     "veronica_nekrassoff",
     "parker_mcwhirter",
-    "brock_cross"
+    "brock_cross",
+    "eric_shirley"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T03:12:47.015Z",
+      "type": "assign",
+      "advisorId": "eric_shirley",
+      "advisorName": "Eric Shirley",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "Joe",
+        "notes": "wanted to llok a"
+      }
+    },
     {
       "ts": "2025-11-30T03:12:34.449Z",
       "type": "status",
@@ -183,5 +194,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T03:12:35.442Z"
+  "_serverUpdatedAt": "2025-11-30T03:12:47.986Z"
 }
