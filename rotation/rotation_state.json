@@ -21,7 +21,7 @@
     },
     "brock_cross": {
       "inAt": "2025-11-30T02:46:13.058Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 2,
       "appts": 0,
       "delivered": 0,
@@ -81,6 +81,15 @@
     "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T03:11:01.636Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-11-30T03:10:59.491Z",
       "type": "assign",
@@ -145,5 +154,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T03:11:00.392Z"
+  "_serverUpdatedAt": "2025-11-30T03:11:02.584Z"
 }
