@@ -21,7 +21,7 @@
     },
     "brock_cross": {
       "inAt": "2025-11-30T02:46:13.058Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -82,6 +82,15 @@
   ],
   "log": [
     {
+      "ts": "2025-11-30T03:10:42.267Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
       "ts": "2025-11-30T03:08:50.672Z",
       "type": "status",
       "advisorId": "veronica_nekrassoff",
@@ -94,5 +103,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T03:08:51.791Z"
+  "_serverUpdatedAt": "2025-11-30T03:10:43.257Z"
 }
