@@ -82,6 +82,15 @@
   ],
   "log": [
     {
+      "ts": "2025-11-30T02:52:27.261Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "OFF"
+      }
+    },
+    {
       "ts": "2025-11-30T02:52:24.680Z",
       "type": "status",
       "advisorId": "brock_cross",
@@ -265,5 +274,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:52:25.678Z"
+  "_serverUpdatedAt": "2025-11-30T02:52:28.194Z"
 }
