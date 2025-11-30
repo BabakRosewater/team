@@ -1,8 +1,90 @@
 {
   "_day": "",
-  "checkedIn": {},
-  "rotation": [],
+  "checkedIn": {
+    "joshua_brandenburg": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "veronica_nekrassoff": {
+      "inAt": "2025-11-30T02:45:51.082Z",
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "brock_cross": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "eric_shirley": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "parker_mcwhirter": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "brandon_ullom": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "john_squier": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    },
+    "rob_vanderbeek": {
+      "inAt": null,
+      "status": "AVAILABLE",
+      "ups": 0,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": null
+    }
+  },
+  "rotation": [
+    "veronica_nekrassoff"
+  ],
   "log": [
+    {
+      "ts": "2025-11-30T02:45:51.082Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2025-11-30T02:25:14.477Z",
       "type": "test",
@@ -25,5 +107,5 @@
     }
   ],
   "settings": {},
-  "_serverUpdatedAt": "2025-11-30T02:25:14.695Z"
+  "_serverUpdatedAt": "2025-11-30T02:45:52.073Z"
 }
