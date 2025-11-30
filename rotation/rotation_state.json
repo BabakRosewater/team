@@ -21,7 +21,7 @@
     },
     "brock_cross": {
       "inAt": "2025-11-30T02:46:13.058Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -81,6 +81,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:48:01.206Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-11-30T02:47:55.785Z",
       "type": "assign",
@@ -184,5 +193,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:47:56.700Z"
+  "_serverUpdatedAt": "2025-11-30T02:48:02.138Z"
 }
