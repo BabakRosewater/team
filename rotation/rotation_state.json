@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "parker_mcwhirter": {
-      "inAt": null,
+      "inAt": "2025-11-30T02:46:14.674Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -77,9 +77,17 @@
   "rotation": [
     "veronica_nekrassoff",
     "brock_cross",
-    "eric_shirley"
+    "eric_shirley",
+    "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:46:14.674Z",
+      "type": "check_in",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
     {
       "ts": "2025-11-30T02:46:13.698Z",
       "type": "check_in",
@@ -123,5 +131,5 @@
     }
   ],
   "settings": {},
-  "_serverUpdatedAt": "2025-11-30T02:46:14.689Z"
+  "_serverUpdatedAt": "2025-11-30T02:46:15.569Z"
 }
