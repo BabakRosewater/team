@@ -2,6 +2,13 @@
   "_day": "",
   "checkedIn": {},
   "rotation": [],
-  "log": [],
-  "settings": {}
+  "log": [
+    {
+      "ts": "2025-11-30T02:24:25.825Z",
+      "type": "test",
+      "note": "Test log row from CodePen"
+    }
+  ],
+  "settings": {},
+  "_serverUpdatedAt": "2025-11-30T02:24:26.079Z"
 }
