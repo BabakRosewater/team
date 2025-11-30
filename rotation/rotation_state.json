@@ -12,7 +12,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2025-11-30T02:45:51.082Z",
-      "status": "AVAILABLE",
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -81,6 +81,15 @@
     "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-11-30T02:51:56.891Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "OFF"
+      }
+    },
     {
       "ts": "2025-11-30T02:49:02.550Z",
       "type": "turned",
@@ -220,5 +229,5 @@
   "settings": {
     "markWithGuestOnAssign": true
   },
-  "_serverUpdatedAt": "2025-11-30T02:49:03.610Z"
+  "_serverUpdatedAt": "2025-11-30T02:51:57.941Z"
 }
