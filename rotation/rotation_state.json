@@ -12,7 +12,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2025-12-01T17:06:52.812Z",
-      "status": "APPOINTMENT",
+      "status": "AVAILABLE",
       "ups": 2,
       "appts": 0,
       "delivered": 0,
@@ -83,6 +83,15 @@
     "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:11:07.486Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-01T17:10:49.555Z",
       "type": "status",
