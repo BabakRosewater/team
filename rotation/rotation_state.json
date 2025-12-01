@@ -38,8 +38,8 @@
       "lastAssignedAt": "2025-11-30T03:12:47.015Z"
     },
     "parker_mcwhirter": {
-      "inAt": "2025-12-01T17:06:58.008Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 3,
       "appts": 0,
       "delivered": 0,
@@ -76,11 +76,17 @@
   },
   "rotation": [
     "john_squier",
-    "parker_mcwhirter",
     "brock_cross",
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:31:18.870Z",
+      "type": "check_out",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
     {
       "ts": "2025-12-01T17:30:51.202Z",
       "type": "check_out",
