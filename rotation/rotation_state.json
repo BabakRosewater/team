@@ -48,12 +48,12 @@
     },
     "brandon_ullom": {
       "inAt": "2025-12-01T17:36:48.056Z",
-      "status": "AVAILABLE",
-      "ups": 1,
+      "status": "WITH_GUEST",
+      "ups": 2,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": "2025-12-01T17:10:15.279Z"
+      "lastAssignedAt": "2025-12-01T17:38:05.871Z"
     },
     "john_squier": {
       "inAt": "2025-12-01T17:37:15.332Z",
@@ -75,14 +75,25 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
     "veronica_nekrassoff",
     "parker_mcwhirter",
     "brock_cross",
     "john_squier",
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:38:05.871Z",
+      "type": "assign",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2025-12-01T17:37:44.004Z",
       "type": "status",
