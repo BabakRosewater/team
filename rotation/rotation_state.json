@@ -47,7 +47,7 @@
       "lastAssignedAt": "2025-11-30T03:10:59.491Z"
     },
     "brandon_ullom": {
-      "inAt": null,
+      "inAt": "2025-12-01T00:33:52.107Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -56,7 +56,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2025-12-01T00:36:29.239Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -78,9 +78,25 @@
     "veronica_nekrassoff",
     "parker_mcwhirter",
     "brock_cross",
-    "eric_shirley"
+    "eric_shirley",
+    "brandon_ullom",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T00:36:29.239Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-01T00:33:52.107Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-11-30T03:12:47.015Z",
       "type": "assign",
