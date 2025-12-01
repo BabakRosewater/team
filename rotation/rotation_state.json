@@ -47,7 +47,7 @@
       "lastAssignedAt": "2025-11-30T03:10:59.491Z"
     },
     "brandon_ullom": {
-      "inAt": "2025-12-01T16:36:44.628Z",
+      "inAt": null,
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -74,10 +74,15 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "brandon_ullom"
-  ],
+  "rotation": [],
   "log": [
+    {
+      "ts": "2025-12-01T16:36:45.652Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-12-01T16:36:44.628Z",
       "type": "check_in",
