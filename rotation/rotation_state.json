@@ -57,7 +57,7 @@
     },
     "john_squier": {
       "inAt": "2025-12-01T17:07:07.031Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -83,6 +83,15 @@
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:07:56.199Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-01T17:07:54.824Z",
       "type": "status",
