@@ -65,7 +65,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2025-12-01T17:37:17.175Z",
       "status": "OFF",
       "ups": 1,
       "appts": 0,
@@ -79,9 +79,17 @@
     "veronica_nekrassoff",
     "parker_mcwhirter",
     "brock_cross",
-    "john_squier"
+    "john_squier",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:37:17.175Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2025-12-01T17:37:15.332Z",
       "type": "check_in",
