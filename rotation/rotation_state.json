@@ -66,7 +66,7 @@
     },
     "rob_vanderbeek": {
       "inAt": "2025-12-01T17:37:17.175Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -83,6 +83,15 @@
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2025-12-01T17:37:44.004Z",
+      "type": "status",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-01T17:37:42.904Z",
       "type": "status",
