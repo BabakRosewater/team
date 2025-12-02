@@ -12,12 +12,12 @@
     },
     "brock_cross": {
       "inAt": "2025-12-02T15:45:13.445Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-02T15:46:24.868Z"
     },
     "eric_shirley": {
       "inAt": null,
@@ -39,12 +39,12 @@
     },
     "parker_mcwhirter": {
       "inAt": "2025-12-02T15:45:15.843Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-02T15:46:25.239Z"
     },
     "rob_vanderbeek": {
       "inAt": null,
@@ -57,22 +57,55 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2025-12-02T15:45:18.815Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-02T15:46:25.759Z"
     }
   },
   "rotation": [
+    "john_squier",
+    "brandon_ullom",
     "brock_cross",
     "parker_mcwhirter",
-    "veronica_nekrassoff",
-    "john_squier",
-    "brandon_ullom"
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-02T15:46:25.759Z",
+      "type": "assign",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2025-12-02T15:46:25.239Z",
+      "type": "assign",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2025-12-02T15:46:24.868Z",
+      "type": "assign",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2025-12-02T15:46:23.464Z",
       "type": "assign",
