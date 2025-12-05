@@ -2,8 +2,8 @@
   "_day": "2025-12-02",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-02T15:45:12.368Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -11,8 +11,8 @@
       "lastAssignedAt": "2025-12-02T15:46:23.464Z"
     },
     "brock_cross": {
-      "inAt": "2025-12-02T15:45:13.445Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-02T15:45:10.463Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -38,8 +38,8 @@
       "lastAssignedAt": "2025-12-02T15:45:54.451Z"
     },
     "parker_mcwhirter": {
-      "inAt": "2025-12-02T15:45:15.843Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -66,13 +66,47 @@
     }
   },
   "rotation": [
-    "john_squier",
-    "brandon_ullom",
-    "brock_cross",
-    "parker_mcwhirter",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-05T16:26:44.375Z",
+      "type": "check_out",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-05T16:26:43.993Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-05T16:26:43.352Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-05T16:26:42.781Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-05T16:25:12.025Z",
+      "type": "day_mismatch",
+      "advisorId": "",
+      "advisorName": "",
+      "meta": {
+        "serverDay": "2025-12-02",
+        "localDay": "2025-12-05"
+      }
+    },
     {
       "ts": "2025-12-02T15:46:35.879Z",
       "type": "status",
