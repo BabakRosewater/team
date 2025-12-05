@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2025-12-02T15:45:18.815Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -65,10 +65,15 @@
       "lastAssignedAt": "2025-12-02T15:46:25.759Z"
     }
   },
-  "rotation": [
-    "veronica_nekrassoff"
-  ],
+  "rotation": [],
   "log": [
+    {
+      "ts": "2025-12-05T16:26:45.277Z",
+      "type": "check_out",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2025-12-05T16:26:44.375Z",
       "type": "check_out",
