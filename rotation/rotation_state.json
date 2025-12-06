@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "parker_mcwhirter": {
-      "inAt": null,
+      "inAt": "2025-12-06T15:35:57.708Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -67,9 +67,17 @@
   },
   "rotation": [
     "brandon_ullom",
-    "john_squier"
+    "john_squier",
+    "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-12-06T15:35:57.708Z",
+      "type": "check_in",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
     {
       "ts": "2025-12-06T15:28:47.176Z",
       "type": "check_in",
