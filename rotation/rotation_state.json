@@ -30,12 +30,12 @@
     },
     "john_squier": {
       "inAt": "2025-12-06T15:28:47.176Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-06T22:36:21.223Z"
     },
     "parker_mcwhirter": {
       "inAt": "2025-12-06T15:35:57.708Z",
@@ -66,13 +66,24 @@
     }
   },
   "rotation": [
-    "john_squier",
     "parker_mcwhirter",
     "veronica_nekrassoff",
     "brock_cross",
-    "brandon_ullom"
+    "brandon_ullom",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2025-12-06T22:36:21.223Z",
+      "type": "assign",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2025-12-06T22:04:29.973Z",
       "type": "status",
