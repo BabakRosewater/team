@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2025-12-06T15:17:35.436Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-06T18:59:58.463Z",
+      "type": "status",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-06T18:59:52.041Z",
       "type": "assign",
