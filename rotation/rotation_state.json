@@ -20,8 +20,8 @@
       "lastAssignedAt": null
     },
     "eric_shirley": {
-      "inAt": "2025-12-06T15:56:09.716Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -69,11 +69,17 @@
     "brandon_ullom",
     "john_squier",
     "parker_mcwhirter",
-    "eric_shirley",
     "veronica_nekrassoff",
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2025-12-06T18:48:32.119Z",
+      "type": "check_out",
+      "advisorId": "eric_shirley",
+      "advisorName": "Eric Shirley",
+      "meta": {}
+    },
     {
       "ts": "2025-12-06T18:48:26.475Z",
       "type": "status",
