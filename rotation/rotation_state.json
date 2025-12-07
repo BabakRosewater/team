@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-06T15:28:47.176Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -38,8 +38,8 @@
       "lastAssignedAt": "2025-12-06T22:36:21.223Z"
     },
     "parker_mcwhirter": {
-      "inAt": "2025-12-06T15:35:57.708Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -66,11 +66,23 @@
     }
   },
   "rotation": [
-    "parker_mcwhirter",
-    "veronica_nekrassoff",
-    "john_squier"
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-07T01:26:44.473Z",
+      "type": "check_out",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-07T01:26:43.906Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2025-12-07T01:26:43.018Z",
       "type": "check_out",
