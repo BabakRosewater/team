@@ -11,8 +11,8 @@
       "lastAssignedAt": "2025-12-06T18:59:52.041Z"
     },
     "brock_cross": {
-      "inAt": "2025-12-06T17:29:38.325Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 1,
       "delivered": 0,
@@ -68,11 +68,17 @@
   "rotation": [
     "parker_mcwhirter",
     "veronica_nekrassoff",
-    "brock_cross",
     "brandon_ullom",
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2025-12-07T01:12:58.221Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2025-12-06T22:44:24.616Z",
       "type": "status",
