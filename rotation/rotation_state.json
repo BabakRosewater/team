@@ -57,7 +57,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2025-12-09T15:42:10.799Z",
-      "status": "AVAILABLE",
+      "status": "APPOINTMENT",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -71,6 +71,15 @@
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-09T20:01:08.862Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
     {
       "ts": "2025-12-09T17:08:38.138Z",
       "type": "status",
