@@ -39,7 +39,7 @@
     },
     "parker_mcwhirter": {
       "inAt": "2025-12-09T16:44:40.987Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -71,6 +71,15 @@
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-09T17:08:38.138Z",
+      "type": "status",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-09T17:08:32.639Z",
       "type": "done",
