@@ -11,7 +11,7 @@
       "lastAssignedAt": "2025-12-06T18:59:52.041Z"
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2025-12-09T15:57:12.690Z",
       "status": "OFF",
       "ups": 0,
       "appts": 1,
@@ -38,7 +38,7 @@
       "lastAssignedAt": "2025-12-06T22:36:21.223Z"
     },
     "parker_mcwhirter": {
-      "inAt": null,
+      "inAt": "2025-12-09T15:57:11.964Z",
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": null,
-      "status": "OFF",
+      "inAt": "2025-12-09T15:42:10.799Z",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -65,8 +65,66 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [],
+  "rotation": [
+    "veronica_nekrassoff",
+    "parker_mcwhirter",
+    "brock_cross"
+  ],
   "log": [
+    {
+      "ts": "2025-12-09T15:57:40.340Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-09T15:57:12.690Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-09T15:57:11.964Z",
+      "type": "check_in",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-09T15:57:10.728Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-09T15:57:08.460Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-09T15:42:10.799Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-09T15:42:08.157Z",
+      "type": "day_mismatch",
+      "advisorId": "",
+      "advisorName": "",
+      "meta": {
+        "serverDay": "2025-12-06",
+        "localDay": "2025-12-09"
+      }
+    },
     {
       "ts": "2025-12-07T01:26:48.759Z",
       "type": "check_out",
