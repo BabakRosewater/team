@@ -2,7 +2,7 @@
   "_day": "2025-12-06",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": null,
+      "inAt": "2025-12-10T18:20:13.511Z",
       "status": "OFF",
       "ups": 1,
       "appts": 0,
@@ -12,7 +12,7 @@
     },
     "brock_cross": {
       "inAt": "2025-12-09T15:57:12.690Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 1,
       "delivered": 0,
@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2025-12-10T18:20:11.707Z",
       "status": "OFF",
       "ups": 1,
       "appts": 0,
@@ -38,8 +38,8 @@
       "lastAssignedAt": "2025-12-06T22:36:21.223Z"
     },
     "parker_mcwhirter": {
-      "inAt": "2025-12-09T16:44:40.987Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -47,7 +47,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2025-12-10T18:20:10.440Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -57,7 +57,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2025-12-09T15:42:10.799Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 2,
       "delivered": 0,
@@ -66,11 +66,69 @@
     }
   },
   "rotation": [
-    "parker_mcwhirter",
     "veronica_nekrassoff",
-    "brock_cross"
+    "brock_cross",
+    "rob_vanderbeek",
+    "john_squier",
+    "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-11T00:50:10.863Z",
+      "type": "check_out",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-10T18:20:18.750Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-10T18:20:17.198Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-10T18:20:13.511Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-10T18:20:11.707Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-10T18:20:10.440Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-10T18:20:04.008Z",
+      "type": "day_mismatch",
+      "advisorId": "",
+      "advisorName": "",
+      "meta": {
+        "serverDay": "2025-12-06",
+        "localDay": "2025-12-10"
+      }
+    },
     {
       "ts": "2025-12-10T01:00:55.808Z",
       "type": "assign",
