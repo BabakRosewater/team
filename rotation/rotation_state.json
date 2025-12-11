@@ -30,7 +30,7 @@
     },
     "john_squier": {
       "inAt": "2025-12-10T18:20:11.707Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -72,6 +72,15 @@
     "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-11T00:50:45.032Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-11T00:50:40.530Z",
       "type": "status",
