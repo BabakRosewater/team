@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2025-12-09T15:42:10.799Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 2,
       "delivered": 0,
@@ -66,13 +66,19 @@
     }
   },
   "rotation": [
-    "veronica_nekrassoff",
     "brock_cross",
     "rob_vanderbeek",
     "john_squier",
     "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-11T00:50:12.178Z",
+      "type": "check_out",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2025-12-11T00:50:10.863Z",
       "type": "check_out",
