@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2025-12-12T15:47:15.782Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -68,9 +68,17 @@
   "rotation": [
     "veronica_nekrassoff",
     "brandon_ullom",
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2025-12-12T15:47:15.782Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2025-12-12T15:47:11.925Z",
       "type": "check_in",
