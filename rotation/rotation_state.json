@@ -48,7 +48,7 @@
     },
     "rob_vanderbeek": {
       "inAt": "2025-12-13T17:10:09.152Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-13T17:10:25.672Z",
+      "type": "status",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2025-12-13T17:10:19.940Z",
       "type": "status",
