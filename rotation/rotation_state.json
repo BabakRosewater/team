@@ -2,8 +2,8 @@
   "_day": "2025-12-12",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-12T15:47:10.722Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -67,12 +67,18 @@
   },
   "rotation": [
     "veronica_nekrassoff",
-    "brandon_ullom",
     "rob_vanderbeek",
     "brock_cross",
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2025-12-13T17:09:27.112Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-12-12T15:47:29.101Z",
       "type": "check_in",
