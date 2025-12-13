@@ -2,8 +2,8 @@
   "_day": "2025-12-12",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-13T17:10:00.784Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2025-12-13T17:10:03.508Z",
+      "inAt": null,
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-13T17:10:05.176Z",
+      "inAt": null,
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -66,13 +66,31 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
-    "brock_cross",
-    "john_squier",
     "rob_vanderbeek",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-13T17:10:33.293Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-13T17:10:32.738Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-13T17:10:32.312Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-12-13T17:10:25.672Z",
       "type": "status",
