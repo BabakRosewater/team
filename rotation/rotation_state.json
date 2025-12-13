@@ -47,8 +47,8 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2025-12-12T15:47:11.925Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2025-12-12T15:47:06.300Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -65,11 +65,22 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "veronica_nekrassoff",
-    "rob_vanderbeek"
-  ],
+  "rotation": [],
   "log": [
+    {
+      "ts": "2025-12-13T17:09:29.949Z",
+      "type": "check_out",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-13T17:09:29.330Z",
+      "type": "check_out",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2025-12-13T17:09:28.650Z",
       "type": "check_out",
