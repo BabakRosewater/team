@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "parker_mcwhirter": {
-      "inAt": null,
+      "inAt": "2025-12-19T15:49:53.667Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -69,9 +69,17 @@
     "veronica_nekrassoff",
     "brandon_ullom",
     "brock_cross",
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "parker_mcwhirter"
   ],
   "log": [
+    {
+      "ts": "2025-12-19T15:49:53.667Z",
+      "type": "check_in",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
     {
       "ts": "2025-12-19T15:49:52.087Z",
       "type": "check_in",
