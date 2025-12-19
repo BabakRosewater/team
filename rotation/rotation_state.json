@@ -20,7 +20,7 @@
       "lastAssignedAt": null
     },
     "eric_shirley": {
-      "inAt": null,
+      "inAt": "2025-12-19T15:33:47.425Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -70,9 +70,27 @@
     "rob_vanderbeek",
     "brock_cross",
     "john_squier",
-    "veronica_nekrassoff"
+    "veronica_nekrassoff",
+    "eric_shirley"
   ],
   "log": [
+    {
+      "ts": "2025-12-19T15:33:47.425Z",
+      "type": "check_in",
+      "advisorId": "eric_shirley",
+      "advisorName": "Eric Shirley",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-19T15:33:29.255Z",
+      "type": "day_mismatch",
+      "advisorId": "",
+      "advisorName": "",
+      "meta": {
+        "serverDay": "2025-12-12",
+        "localDay": "2025-12-19"
+      }
+    },
     {
       "ts": "2025-12-13T17:11:57.754Z",
       "type": "delivered",
