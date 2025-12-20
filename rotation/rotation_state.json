@@ -2,8 +2,8 @@
   "_day": "2025-12-19",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-19T15:37:50.098Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "OFF",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -69,10 +69,16 @@
     "veronica_nekrassoff",
     "rob_vanderbeek",
     "parker_mcwhirter",
-    "john_squier",
-    "brandon_ullom"
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2025-12-20T02:05:52.816Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-12-20T02:05:51.838Z",
       "type": "check_out",
