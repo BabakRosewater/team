@@ -2,22 +2,22 @@
   "_day": "2025-12-19",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": null,
-      "status": "OFF",
+      "inAt": "2025-12-20T16:30:03.867Z",
+      "status": "WITH_GUEST",
+      "ups": 2,
+      "appts": 0,
+      "delivered": 0,
+      "turned": 0,
+      "lastAssignedAt": "2025-12-20T20:32:34.231Z"
+    },
+    "brock_cross": {
+      "inAt": "2025-12-20T16:32:03.740Z",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": "2025-12-19T21:02:37.367Z"
-    },
-    "brock_cross": {
-      "inAt": null,
-      "status": "OFF",
-      "ups": 0,
-      "appts": 0,
-      "delivered": 0,
-      "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-20T20:32:59.910Z"
     },
     "eric_shirley": {
       "inAt": null,
@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
-      "status": "OFF",
+      "inAt": "2025-12-20T16:32:12.635Z",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -47,17 +47,17 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
-      "status": "OFF",
-      "ups": 0,
+      "inAt": "2025-12-20T16:30:10.780Z",
+      "status": "AVAILABLE",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2025-12-20T20:32:46.188Z"
     },
     "veronica_nekrassoff": {
-      "inAt": null,
-      "status": "OFF",
+      "inAt": "2025-12-20T16:32:13.723Z",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -65,8 +65,192 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [],
+  "rotation": [
+    "john_squier",
+    "veronica_nekrassoff",
+    "brandon_ullom",
+    "rob_vanderbeek",
+    "brock_cross"
+  ],
   "log": [
+    {
+      "ts": "2025-12-20T23:55:51.615Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T23:55:50.820Z",
+      "type": "status",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T23:55:40.401Z",
+      "type": "check_out",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T20:33:03.855Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T20:33:02.462Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T20:33:01.670Z",
+      "type": "status",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:59.910Z",
+      "type": "assign",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:57.053Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:46.188Z",
+      "type": "assign",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:44.188Z",
+      "type": "done",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T20:32:39.115Z",
+      "type": "status",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:34.231Z",
+      "type": "assign",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2025-12-20T20:32:27.231Z",
+      "type": "done",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T20:32:06.831Z",
+      "type": "status",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "status": "WITH_GUEST"
+      }
+    },
+    {
+      "ts": "2025-12-20T16:32:13.723Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:32:12.635Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:32:05.518Z",
+      "type": "check_in",
+      "advisorId": "parker_mcwhirter",
+      "advisorName": "Parker McWhirter",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:32:03.740Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:30:10.780Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:30:03.867Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-20T16:30:01.516Z",
+      "type": "day_mismatch",
+      "advisorId": "",
+      "advisorName": "",
+      "meta": {
+        "serverDay": "2025-12-19",
+        "localDay": "2025-12-20"
+      }
+    },
     {
       "ts": "2025-12-20T02:05:56.470Z",
       "type": "check_out",
