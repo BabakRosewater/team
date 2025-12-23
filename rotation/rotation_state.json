@@ -2,8 +2,8 @@
   "_day": "2025-12-23",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-23T15:26:20.413Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -66,12 +66,18 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
     "brock_cross",
     "parker_mcwhirter",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-23T17:55:15.431Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2025-12-23T16:03:27.864Z",
       "type": "check_in",
