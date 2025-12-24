@@ -1,9 +1,9 @@
 {
-  "_day": "2025-12-23",
+  "_day": "2025-12-24",
   "checkedIn": {
     "brandon_ullom": {
       "inAt": null,
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -12,7 +12,7 @@
     },
     "brock_cross": {
       "inAt": null,
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -39,7 +39,7 @@
     },
     "parker_mcwhirter": {
       "inAt": null,
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -57,7 +57,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": null,
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -68,73 +68,7 @@
   "rotation": [],
   "log": [
     {
-      "ts": "2025-12-24T17:06:50.236Z",
-      "type": "check_out",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:06:49.588Z",
-      "type": "check_out",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:06:49.073Z",
-      "type": "check_out",
-      "advisorId": "parker_mcwhirter",
-      "advisorName": "Parker McWhirter",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:06:33.221Z",
-      "type": "day_mismatch",
-      "advisorId": "",
-      "advisorName": "",
-      "meta": {
-        "serverDay": "2025-12-23",
-        "localDay": "2025-12-24"
-      }
-    },
-    {
-      "ts": "2025-12-23T17:55:15.431Z",
-      "type": "check_out",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-23T16:03:27.864Z",
-      "type": "check_in",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-23T15:48:45.671Z",
-      "type": "check_in",
-      "advisorId": "parker_mcwhirter",
-      "advisorName": "Parker McWhirter",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-23T15:43:12.461Z",
-      "type": "check_in",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-23T15:26:20.413Z",
-      "type": "check_in",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-23T15:26:18.013Z",
+      "ts": "2025-12-24T17:06:55.736Z",
       "type": "reset_day",
       "advisorId": "",
       "advisorName": "",
