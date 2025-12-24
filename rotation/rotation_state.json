@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-24T17:07:02.760Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -67,10 +67,16 @@
   },
   "rotation": [
     "brock_cross",
-    "brandon_ullom",
-    "john_squier"
+    "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2025-12-24T17:07:03.725Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2025-12-24T17:07:02.760Z",
       "type": "check_in",
