@@ -1,8 +1,8 @@
 {
-  "_day": "2025-12-24",
+  "_day": "2025-12-27",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-24T17:07:00.662Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2025-12-24T17:06:57.958Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-24T17:07:04.468Z",
-      "status": "OFF",
+      "inAt": null,
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -47,7 +47,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2025-12-24T17:07:05.726Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -65,57 +65,10 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "brock_cross",
-    "brandon_ullom",
-    "john_squier",
-    "rob_vanderbeek"
-  ],
+  "rotation": [],
   "log": [
     {
-      "ts": "2025-12-24T17:07:05.727Z",
-      "type": "check_in",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:07:04.468Z",
-      "type": "check_in",
-      "advisorId": "john_squier",
-      "advisorName": "John Squier",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:07:03.725Z",
-      "type": "check_out",
-      "advisorId": "john_squier",
-      "advisorName": "John Squier",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:07:02.760Z",
-      "type": "check_in",
-      "advisorId": "john_squier",
-      "advisorName": "John Squier",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:07:00.662Z",
-      "type": "check_in",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:06:57.958Z",
-      "type": "check_in",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-24T17:06:55.736Z",
+      "ts": "2025-12-27T16:22:19.022Z",
       "type": "reset_day",
       "advisorId": "",
       "advisorName": "",
