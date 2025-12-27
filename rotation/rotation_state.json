@@ -48,7 +48,7 @@
     },
     "rob_vanderbeek": {
       "inAt": "2025-12-27T16:24:14.217Z",
-      "status": "AVAILABLE",
+      "status": "APPOINTMENT",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2025-12-27T19:31:06.937Z",
+      "type": "status",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
     {
       "ts": "2025-12-27T19:31:01.863Z",
       "type": "status",
