@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2025-12-27T16:22:34.973Z",
-      "status": "AVAILABLE",
+      "status": "APPOINTMENT",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2025-12-27T19:31:01.863Z",
+      "type": "status",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
     {
       "ts": "2025-12-27T16:24:26.963Z",
       "type": "check_in",
