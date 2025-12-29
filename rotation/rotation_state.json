@@ -1,9 +1,9 @@
 {
-  "_day": "2025-12-27",
+  "_day": "2025-12-29",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2025-12-27T16:22:34.973Z",
-      "status": "APPOINTMENT",
+      "inAt": null,
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2025-12-27T16:24:26.963Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2025-12-27T16:24:23.083Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,8 +47,8 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2025-12-27T16:24:14.217Z",
-      "status": "APPOINTMENT",
+      "inAt": null,
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2025-12-27T16:24:16.441Z",
-      "status": "WITH_GUEST",
+      "inAt": null,
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -65,78 +65,10 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "brandon_ullom",
-    "rob_vanderbeek",
-    "veronica_nekrassoff",
-    "john_squier",
-    "brock_cross"
-  ],
+  "rotation": [],
   "log": [
     {
-      "ts": "2025-12-27T19:31:25.032Z",
-      "type": "status",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {
-        "status": "WITH_GUEST"
-      }
-    },
-    {
-      "ts": "2025-12-27T19:31:06.937Z",
-      "type": "status",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {
-        "status": "APPOINTMENT"
-      }
-    },
-    {
-      "ts": "2025-12-27T19:31:01.863Z",
-      "type": "status",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {
-        "status": "APPOINTMENT"
-      }
-    },
-    {
-      "ts": "2025-12-27T16:24:26.963Z",
-      "type": "check_in",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-27T16:24:23.083Z",
-      "type": "check_in",
-      "advisorId": "john_squier",
-      "advisorName": "John Squier",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-27T16:24:16.441Z",
-      "type": "check_in",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-27T16:24:14.217Z",
-      "type": "check_in",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-27T16:22:34.973Z",
-      "type": "check_in",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2025-12-27T16:22:19.022Z",
+      "ts": "2025-12-29T15:55:03.203Z",
       "type": "reset_day",
       "advisorId": "",
       "advisorName": "",
