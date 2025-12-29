@@ -47,7 +47,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2025-12-29T16:02:01.333Z",
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -56,7 +56,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": null,
+      "inAt": "2025-12-29T16:02:01.886Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -67,9 +67,25 @@
   },
   "rotation": [
     "brandon_ullom",
-    "john_squier"
+    "john_squier",
+    "rob_vanderbeek",
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2025-12-29T16:02:01.886Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
+    {
+      "ts": "2025-12-29T16:02:01.333Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2025-12-29T16:01:59.933Z",
       "type": "check_in",
