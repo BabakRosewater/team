@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2026-01-01T17:27:45.999Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -66,9 +66,17 @@
     }
   },
   "rotation": [
-    "brock_cross"
+    "brock_cross",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-01T17:27:45.999Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2026-01-01T17:27:44.115Z",
       "type": "check_in",
