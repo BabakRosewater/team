@@ -47,7 +47,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2026-01-01T17:27:47.909Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -67,9 +67,17 @@
   },
   "rotation": [
     "brock_cross",
-    "john_squier"
+    "john_squier",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-01T17:27:47.909Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-01T17:27:45.999Z",
       "type": "check_in",
