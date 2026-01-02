@@ -47,7 +47,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2026-01-02T16:20:09.237Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -68,9 +68,17 @@
   "rotation": [
     "veronica_nekrassoff",
     "brandon_ullom",
-    "john_squier"
+    "john_squier",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-02T16:20:09.238Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-02T16:20:07.894Z",
       "type": "check_in",
