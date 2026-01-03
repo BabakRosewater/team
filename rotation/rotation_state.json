@@ -56,8 +56,8 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2026-01-03T17:03:06.772Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -67,10 +67,16 @@
   },
   "rotation": [
     "brandon_ullom",
-    "rob_vanderbeek",
-    "veronica_nekrassoff"
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-03T17:03:07.948Z",
+      "type": "check_out",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2026-01-03T17:03:06.772Z",
       "type": "check_in",
