@@ -30,7 +30,7 @@
     },
     "john_squier": {
       "inAt": "2026-01-05T16:33:58.435Z",
-      "status": "AVAILABLE",
+      "status": "APPOINTMENT",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -72,6 +72,15 @@
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-05T18:23:48.954Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
     {
       "ts": "2026-01-05T18:23:32.735Z",
       "type": "check_out",
