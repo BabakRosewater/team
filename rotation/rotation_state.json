@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2026-01-05T16:33:58.435Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -69,9 +69,17 @@
     "brandon_ullom",
     "veronica_nekrassoff",
     "brock_cross",
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-05T16:33:58.435Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2026-01-05T15:47:58.188Z",
       "type": "check_in",
