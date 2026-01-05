@@ -57,21 +57,32 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2026-01-05T15:45:19.729Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-01-05T18:46:45.385Z"
     }
   },
   "rotation": [
-    "veronica_nekrassoff",
     "brock_cross",
     "john_squier",
-    "brandon_ullom"
+    "brandon_ullom",
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-01-05T18:46:45.385Z",
+      "type": "assign",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2026-01-05T18:46:44.225Z",
       "type": "status",
