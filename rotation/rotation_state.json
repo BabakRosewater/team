@@ -57,7 +57,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2026-01-05T15:45:19.729Z",
-      "status": "AVAILABLE",
+      "status": "WITH_GUEST",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -72,6 +72,15 @@
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-05T18:46:22.999Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "WITH_GUEST"
+      }
+    },
     {
       "ts": "2026-01-05T18:30:00.520Z",
       "type": "done",
