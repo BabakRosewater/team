@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2026-01-05T15:45:17.137Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 1,
       "appts": 0,
       "delivered": 0,
@@ -71,6 +71,13 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-06T00:14:25.955Z",
+      "type": "done",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-06T00:06:43.383Z",
       "type": "check_out",
