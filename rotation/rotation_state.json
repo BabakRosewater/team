@@ -47,8 +47,8 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2026-01-08T15:49:26.078Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -66,11 +66,17 @@
     }
   },
   "rotation": [
-    "rob_vanderbeek",
     "brandon_ullom",
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-09T00:07:28.620Z",
+      "type": "check_out",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-08T15:49:28.984Z",
       "type": "check_in",
