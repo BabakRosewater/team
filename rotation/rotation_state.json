@@ -12,12 +12,12 @@
     },
     "brock_cross": {
       "inAt": "2026-01-10T16:04:56.682Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-01-10T16:32:47.030Z"
     },
     "eric_shirley": {
       "inAt": null,
@@ -66,13 +66,24 @@
     }
   },
   "rotation": [
-    "brock_cross",
     "rob_vanderbeek",
     "brandon_ullom",
     "veronica_nekrassoff",
-    "john_squier"
+    "john_squier",
+    "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-10T16:32:47.030Z",
+      "type": "assign",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2026-01-10T16:32:39.499Z",
       "type": "check_in",
