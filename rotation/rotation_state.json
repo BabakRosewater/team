@@ -29,8 +29,8 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2026-01-10T16:05:00.656Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -68,10 +68,16 @@
   "rotation": [
     "rob_vanderbeek",
     "brock_cross",
-    "john_squier",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-01-10T16:32:22.619Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2026-01-10T16:32:20.459Z",
       "type": "check_out",
