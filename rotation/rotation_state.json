@@ -57,7 +57,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2026-01-10T16:32:36.799Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-10T16:33:06.098Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2026-01-10T16:33:05.100Z",
       "type": "status",
