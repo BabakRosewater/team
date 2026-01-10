@@ -30,7 +30,7 @@
     },
     "john_squier": {
       "inAt": "2026-01-10T16:32:39.499Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-10T16:33:08.339Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2026-01-10T16:33:06.098Z",
       "type": "status",
