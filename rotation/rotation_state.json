@@ -47,8 +47,8 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2026-01-10T16:04:54.991Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -66,11 +66,17 @@
     }
   },
   "rotation": [
-    "rob_vanderbeek",
     "brock_cross",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-01-10T16:32:24.391Z",
+      "type": "check_out",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-10T16:32:22.619Z",
       "type": "check_out",
