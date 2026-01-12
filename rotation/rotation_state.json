@@ -48,12 +48,12 @@
     },
     "rob_vanderbeek": {
       "inAt": "2026-01-12T15:53:27.729Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-01-12T18:47:26.645Z"
     },
     "veronica_nekrassoff": {
       "inAt": "2026-01-12T15:53:30.056Z",
@@ -67,12 +67,23 @@
   },
   "rotation": [
     "brandon_ullom",
-    "rob_vanderbeek",
     "veronica_nekrassoff",
     "john_squier",
-    "brock_cross"
+    "brock_cross",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-12T18:47:26.645Z",
+      "type": "assign",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2026-01-12T18:45:59.579Z",
       "type": "status",
