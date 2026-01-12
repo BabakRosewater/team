@@ -48,10 +48,10 @@
     },
     "rob_vanderbeek": {
       "inAt": "2026-01-12T15:53:27.729Z",
-      "status": "WITH_GUEST",
+      "status": "DELIVERY",
       "ups": 1,
       "appts": 0,
-      "delivered": 0,
+      "delivered": 1,
       "turned": 0,
       "lastAssignedAt": "2026-01-12T18:47:26.645Z"
     },
@@ -73,6 +73,13 @@
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-12T18:47:29.961Z",
+      "type": "delivered",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-12T18:47:26.645Z",
       "type": "assign",
