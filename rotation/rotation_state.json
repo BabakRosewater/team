@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2026-01-12T15:53:16.348Z",
-      "status": "AVAILABLE",
+      "status": "APPOINTMENT",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -73,6 +73,15 @@
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-12T18:44:39.019Z",
+      "type": "status",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "status": "APPOINTMENT"
+      }
+    },
     {
       "ts": "2026-01-12T15:53:35.643Z",
       "type": "check_in",
