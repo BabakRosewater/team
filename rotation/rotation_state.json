@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2026-01-12T15:53:24.904Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,8 +47,8 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2026-01-12T15:53:21.375Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -67,9 +67,23 @@
   },
   "rotation": [
     "brandon_ullom",
-    "rob_vanderbeek"
+    "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-12T15:53:24.904Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2026-01-12T15:53:22.831Z",
+      "type": "check_out",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-01-12T15:53:21.375Z",
       "type": "check_in",
