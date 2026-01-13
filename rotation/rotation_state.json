@@ -2,8 +2,8 @@
   "_day": "2026-01-13",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2026-01-13T15:35:52.278Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -48,10 +48,16 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-01-13T17:28:52.380Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-13T15:48:54.975Z",
       "type": "check_in",
