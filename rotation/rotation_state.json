@@ -1,25 +1,16 @@
 {
-  "_day": "2026-01-12",
+  "_day": "2026-01-13",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2026-01-12T15:53:16.348Z",
+      "inAt": null,
       "status": "AVAILABLE",
-      "ups": 1,
+      "ups": 0,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": "2026-01-12T23:08:06.893Z"
+      "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2026-01-12T15:53:24.904Z",
-      "status": "AVAILABLE",
-      "ups": 1,
-      "appts": 0,
-      "delivered": 1,
-      "turned": 0,
-      "lastAssignedAt": "2026-01-12T18:44:55.513Z"
-    },
-    "eric_shirley": {
       "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
@@ -29,15 +20,6 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": "2026-01-12T15:53:35.643Z",
-      "status": "AVAILABLE",
-      "ups": 0,
-      "appts": 0,
-      "delivered": 0,
-      "turned": 0,
-      "lastAssignedAt": null
-    },
-    "parker_mcwhirter": {
       "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
@@ -47,16 +29,16 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": "2026-01-12T15:53:27.729Z",
+      "inAt": null,
       "status": "AVAILABLE",
-      "ups": 1,
+      "ups": 0,
       "appts": 0,
-      "delivered": 1,
+      "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": "2026-01-12T18:47:26.645Z"
+      "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2026-01-12T15:53:30.056Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -65,190 +47,10 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "veronica_nekrassoff",
-    "john_squier",
-    "brock_cross",
-    "rob_vanderbeek",
-    "brandon_ullom"
-  ],
+  "rotation": [],
   "log": [
     {
-      "ts": "2026-01-12T23:08:52.759Z",
-      "type": "done",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T23:08:26.201Z",
-      "type": "done",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T23:08:23.928Z",
-      "type": "done",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T23:08:21.080Z",
-      "type": "delivered",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T23:08:09.429Z",
-      "type": "done",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T23:08:06.893Z",
-      "type": "assign",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {
-        "source": "Walk-in",
-        "guest": "",
-        "notes": ""
-      }
-    },
-    {
-      "ts": "2026-01-12T23:07:53.305Z",
-      "type": "done",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T18:47:29.961Z",
-      "type": "delivered",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T18:47:26.645Z",
-      "type": "assign",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {
-        "source": "Walk-in",
-        "guest": "",
-        "notes": ""
-      }
-    },
-    {
-      "ts": "2026-01-12T18:45:59.579Z",
-      "type": "status",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {
-        "status": "WITH_GUEST"
-      }
-    },
-    {
-      "ts": "2026-01-12T18:44:55.513Z",
-      "type": "assign",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {
-        "source": "Walk-in",
-        "guest": "",
-        "notes": ""
-      }
-    },
-    {
-      "ts": "2026-01-12T18:44:53.507Z",
-      "type": "done",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T18:44:49.471Z",
-      "type": "status",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {
-        "status": "WITH_GUEST"
-      }
-    },
-    {
-      "ts": "2026-01-12T18:44:45.491Z",
-      "type": "status",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {
-        "status": "AVAILABLE"
-      }
-    },
-    {
-      "ts": "2026-01-12T18:44:39.019Z",
-      "type": "status",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {
-        "status": "APPOINTMENT"
-      }
-    },
-    {
-      "ts": "2026-01-12T15:53:35.643Z",
-      "type": "check_in",
-      "advisorId": "john_squier",
-      "advisorName": "John Squier",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:30.056Z",
-      "type": "check_in",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:27.729Z",
-      "type": "check_in",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:24.904Z",
-      "type": "check_in",
-      "advisorId": "brock_cross",
-      "advisorName": "Brock Cross",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:22.831Z",
-      "type": "check_out",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:21.375Z",
-      "type": "check_in",
-      "advisorId": "rob_vanderbeek",
-      "advisorName": "Rob Vanderbeek",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:16.350Z",
-      "type": "check_in",
-      "advisorId": "brandon_ullom",
-      "advisorName": "Brandon Ullom",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-12T15:53:11.990Z",
+      "ts": "2026-01-13T15:33:55.250Z",
       "type": "reset_day",
       "advisorId": "",
       "advisorName": "",
