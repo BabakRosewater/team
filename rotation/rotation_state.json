@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2026-01-14T15:57:39.609Z",
+      "inAt": null,
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -49,10 +49,16 @@
   },
   "rotation": [
     "brandon_ullom",
-    "john_squier",
-    "veronica_nekrassoff"
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-14T15:58:17.731Z",
+      "type": "check_out",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2026-01-14T15:57:39.609Z",
       "type": "check_in",
