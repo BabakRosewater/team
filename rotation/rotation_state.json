@@ -2,7 +2,7 @@
   "_day": "2026-01-15",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": null,
+      "inAt": "2026-01-15T15:31:58.068Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,8 +47,17 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [],
+  "rotation": [
+    "brandon_ullom"
+  ],
   "log": [
+    {
+      "ts": "2026-01-15T15:31:58.070Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-15T15:27:21.318Z",
       "type": "reset_day",
