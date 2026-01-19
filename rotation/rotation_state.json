@@ -20,7 +20,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2026-01-19T16:00:58.266Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -50,9 +50,17 @@
   "rotation": [
     "brandon_ullom",
     "rob_vanderbeek",
-    "veronica_nekrassoff"
+    "veronica_nekrassoff",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-19T16:00:58.266Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2026-01-19T16:00:56.322Z",
       "type": "check_in",
