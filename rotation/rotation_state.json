@@ -1,5 +1,5 @@
 {
-  "_day": "2026-01-20",
+  "_day": "2026-01-21",
   "checkedIn": {
     "brandon_ullom": {
       "inAt": null,
@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": "2026-01-20T15:27:17.217Z",
+      "inAt": null,
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,19 +47,10 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [
-    "veronica_nekrassoff"
-  ],
+  "rotation": [],
   "log": [
     {
-      "ts": "2026-01-20T15:27:17.217Z",
-      "type": "check_in",
-      "advisorId": "veronica_nekrassoff",
-      "advisorName": "Veronica Nekrassoff",
-      "meta": {}
-    },
-    {
-      "ts": "2026-01-20T15:27:14.147Z",
+      "ts": "2026-01-21T15:50:11.769Z",
       "type": "reset_day",
       "advisorId": "",
       "advisorName": "",
