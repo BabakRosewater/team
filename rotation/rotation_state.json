@@ -39,7 +39,7 @@
     },
     "veronica_nekrassoff": {
       "inAt": "2026-01-22T15:41:02.821Z",
-      "status": "AVAILABLE",
+      "status": "WITH_GUEST",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -55,6 +55,15 @@
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-22T17:44:04.215Z",
+      "type": "status",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "status": "WITH_GUEST"
+      }
+    },
     {
       "ts": "2026-01-22T17:01:37.919Z",
       "type": "assign",
