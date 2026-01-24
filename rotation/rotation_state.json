@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2026-01-24T15:45:21.857Z",
-      "status": "WITH_GUEST",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -54,6 +54,13 @@
     "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-24T17:26:02.166Z",
+      "type": "done",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-24T17:25:59.502Z",
       "type": "assign",
