@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2026-01-27T16:19:07.618Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -48,9 +48,17 @@
     }
   },
   "rotation": [
-    "veronica_nekrassoff"
+    "veronica_nekrassoff",
+    "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-01-27T16:19:07.620Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2026-01-27T16:19:02.512Z",
       "type": "check_in",
