@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": null,
+      "inAt": "2026-01-27T16:19:02.512Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,8 +47,17 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [],
+  "rotation": [
+    "veronica_nekrassoff"
+  ],
   "log": [
+    {
+      "ts": "2026-01-27T16:19:02.512Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2026-01-27T16:18:59.883Z",
       "type": "reset_day",
