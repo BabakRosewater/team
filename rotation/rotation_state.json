@@ -20,7 +20,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2026-01-28T17:33:10.468Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": null,
+      "inAt": "2026-01-28T17:33:09.829Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -50,9 +50,25 @@
   "rotation": [
     "brock_cross",
     "brandon_ullom",
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "veronica_nekrassoff",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-28T17:33:10.468Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2026-01-28T17:33:09.829Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2026-01-28T17:33:07.116Z",
       "type": "check_in",
