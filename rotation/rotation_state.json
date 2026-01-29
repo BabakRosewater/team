@@ -2,7 +2,7 @@
   "_day": "2026-01-29",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": null,
+      "inAt": "2026-01-29T16:06:14.081Z",
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -48,9 +48,17 @@
     }
   },
   "rotation": [
-    "rob_vanderbeek"
+    "rob_vanderbeek",
+    "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2026-01-29T16:06:14.081Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-29T16:06:12.217Z",
       "type": "check_in",
