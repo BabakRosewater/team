@@ -21,7 +21,7 @@
     },
     "john_squier": {
       "inAt": "2026-01-29T16:06:21.940Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -54,6 +54,15 @@
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-29T16:06:27.603Z",
+      "type": "status",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2026-01-29T16:06:26.494Z",
       "type": "status",
