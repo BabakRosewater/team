@@ -20,7 +20,7 @@
       "lastAssignedAt": null
     },
     "john_squier": {
-      "inAt": null,
+      "inAt": "2026-01-29T16:06:21.940Z",
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -50,9 +50,17 @@
   "rotation": [
     "rob_vanderbeek",
     "brandon_ullom",
-    "brock_cross"
+    "brock_cross",
+    "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-29T16:06:21.940Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
     {
       "ts": "2026-01-29T16:06:20.955Z",
       "type": "check_out",
