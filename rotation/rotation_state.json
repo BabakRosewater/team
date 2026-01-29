@@ -11,8 +11,8 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2026-01-29T16:06:19.150Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -50,10 +50,16 @@
   "rotation": [
     "rob_vanderbeek",
     "brandon_ullom",
-    "brock_cross",
     "john_squier"
   ],
   "log": [
+    {
+      "ts": "2026-01-29T17:26:11.474Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2026-01-29T16:06:27.603Z",
       "type": "status",
