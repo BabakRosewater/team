@@ -54,6 +54,20 @@
   ],
   "log": [
     {
+      "ts": "2026-01-29T16:06:20.955Z",
+      "type": "check_out",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
+      "ts": "2026-01-29T16:06:20.858Z",
+      "type": "check_in",
+      "advisorId": "john_squier",
+      "advisorName": "John Squier",
+      "meta": {}
+    },
+    {
       "ts": "2026-01-29T16:06:19.150Z",
       "type": "check_in",
       "advisorId": "brock_cross",
