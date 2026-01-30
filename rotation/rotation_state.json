@@ -2,7 +2,7 @@
   "_day": "2026-01-30",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": null,
+      "inAt": "2026-01-30T15:35:30.429Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2026-01-30T15:48:24.994Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -48,9 +48,25 @@
     }
   },
   "rotation": [
-    "brock_cross"
+    "brock_cross",
+    "brandon_ullom",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-01-30T15:48:24.994Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
+    {
+      "ts": "2026-01-30T15:35:30.429Z",
+      "type": "check_in",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-01-30T15:35:29.757Z",
       "type": "check_in",
