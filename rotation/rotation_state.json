@@ -38,7 +38,7 @@
       "lastAssignedAt": null
     },
     "veronica_nekrassoff": {
-      "inAt": null,
+      "inAt": "2026-01-31T15:50:01.775Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -51,9 +51,17 @@
     "brandon_ullom",
     "rob_vanderbeek",
     "brock_cross",
-    "john_squier"
+    "john_squier",
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-01-31T15:50:01.775Z",
+      "type": "check_in",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {}
+    },
     {
       "ts": "2026-01-31T15:48:33.614Z",
       "type": "check_in",
