@@ -29,7 +29,7 @@
       "lastAssignedAt": null
     },
     "rob_vanderbeek": {
-      "inAt": null,
+      "inAt": "2026-02-02T15:53:51.927Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -48,9 +48,17 @@
     }
   },
   "rotation": [
-    "brandon_ullom"
+    "brandon_ullom",
+    "rob_vanderbeek"
   ],
   "log": [
+    {
+      "ts": "2026-02-02T15:53:51.927Z",
+      "type": "check_in",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {}
+    },
     {
       "ts": "2026-02-02T15:53:48.517Z",
       "type": "check_in",
