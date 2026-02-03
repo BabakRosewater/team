@@ -3,7 +3,7 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2026-02-03T18:09:52.579Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -53,6 +53,15 @@
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-02-03T18:10:21.431Z",
+      "type": "status",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2026-02-03T18:10:19.462Z",
       "type": "assign",
