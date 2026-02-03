@@ -2,7 +2,7 @@
   "_day": "2026-02-03",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2026-02-03T18:08:37.676Z",
+      "inAt": null,
       "status": "OFF",
       "ups": 0,
       "appts": 0,
@@ -11,8 +11,8 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": "2026-02-03T18:08:29.163Z",
-      "status": "AVAILABLE",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -48,11 +48,23 @@
     }
   },
   "rotation": [
-    "brock_cross",
-    "veronica_nekrassoff",
-    "brandon_ullom"
+    "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-02-03T18:08:43.221Z",
+      "type": "check_out",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
+    {
+      "ts": "2026-02-03T18:08:42.764Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-02-03T18:08:37.676Z",
       "type": "check_in",
