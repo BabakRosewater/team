@@ -12,7 +12,7 @@
     },
     "brock_cross": {
       "inAt": "2026-02-03T18:09:58.771Z",
-      "status": "OFF",
+      "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -53,6 +53,15 @@
     "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-02-03T18:10:17.750Z",
+      "type": "status",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "status": "AVAILABLE"
+      }
+    },
     {
       "ts": "2026-02-03T18:10:13.149Z",
       "type": "status",
