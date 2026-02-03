@@ -11,7 +11,7 @@
       "lastAssignedAt": null
     },
     "brock_cross": {
-      "inAt": null,
+      "inAt": "2026-02-03T18:08:29.163Z",
       "status": "AVAILABLE",
       "ups": 0,
       "appts": 0,
@@ -47,8 +47,17 @@
       "lastAssignedAt": null
     }
   },
-  "rotation": [],
+  "rotation": [
+    "brock_cross"
+  ],
   "log": [
+    {
+      "ts": "2026-02-03T18:08:29.163Z",
+      "type": "check_in",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {}
+    },
     {
       "ts": "2026-02-03T18:08:24.762Z",
       "type": "check_out",
