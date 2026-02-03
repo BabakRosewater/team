@@ -2,8 +2,8 @@
   "_day": "2026-02-03",
   "checkedIn": {
     "brandon_ullom": {
-      "inAt": "2026-02-03T18:09:52.579Z",
-      "status": "APPOINTMENT",
+      "inAt": null,
+      "status": "OFF",
       "ups": 0,
       "appts": 0,
       "delivered": 0,
@@ -48,11 +48,17 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
     "brock_cross",
     "veronica_nekrassoff"
   ],
   "log": [
+    {
+      "ts": "2026-02-03T20:22:45.044Z",
+      "type": "check_out",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {}
+    },
     {
       "ts": "2026-02-03T20:22:30.866Z",
       "type": "status",
