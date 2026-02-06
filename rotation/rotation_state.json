@@ -12,12 +12,12 @@
     },
     "brock_cross": {
       "inAt": "2026-02-06T16:00:43.172Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-02-06T18:35:00.462Z"
     },
     "john_squier": {
       "inAt": "2026-02-06T16:00:43.884Z",
@@ -30,31 +30,64 @@
     },
     "rob_vanderbeek": {
       "inAt": "2026-02-06T16:00:23.369Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-02-06T18:34:59.693Z"
     },
     "veronica_nekrassoff": {
       "inAt": "2026-02-06T16:00:24.754Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-02-06T18:35:00.134Z"
     }
   },
   "rotation": [
+    "john_squier",
+    "brandon_ullom",
     "rob_vanderbeek",
     "veronica_nekrassoff",
-    "brock_cross",
-    "john_squier",
-    "brandon_ullom"
+    "brock_cross"
   ],
   "log": [
+    {
+      "ts": "2026-02-06T18:35:00.462Z",
+      "type": "assign",
+      "advisorId": "brock_cross",
+      "advisorName": "Brock Cross",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2026-02-06T18:35:00.134Z",
+      "type": "assign",
+      "advisorId": "veronica_nekrassoff",
+      "advisorName": "Veronica Nekrassoff",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
+    {
+      "ts": "2026-02-06T18:34:59.693Z",
+      "type": "assign",
+      "advisorId": "rob_vanderbeek",
+      "advisorName": "Rob Vanderbeek",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2026-02-06T18:34:55.952Z",
       "type": "status",
