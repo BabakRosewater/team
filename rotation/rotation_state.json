@@ -3,12 +3,12 @@
   "checkedIn": {
     "brandon_ullom": {
       "inAt": "2026-02-07T15:53:15.285Z",
-      "status": "AVAILABLE",
-      "ups": 0,
+      "status": "WITH_GUEST",
+      "ups": 1,
       "appts": 0,
       "delivered": 0,
       "turned": 0,
-      "lastAssignedAt": null
+      "lastAssignedAt": "2026-02-07T16:10:58.544Z"
     },
     "brock_cross": {
       "inAt": "2026-02-07T15:53:26.733Z",
@@ -48,13 +48,24 @@
     }
   },
   "rotation": [
-    "brandon_ullom",
     "veronica_nekrassoff",
     "rob_vanderbeek",
     "brock_cross",
-    "john_squier"
+    "john_squier",
+    "brandon_ullom"
   ],
   "log": [
+    {
+      "ts": "2026-02-07T16:10:58.544Z",
+      "type": "assign",
+      "advisorId": "brandon_ullom",
+      "advisorName": "Brandon Ullom",
+      "meta": {
+        "source": "Walk-in",
+        "guest": "",
+        "notes": ""
+      }
+    },
     {
       "ts": "2026-02-07T15:53:27.783Z",
       "type": "check_in",
